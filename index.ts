@@ -62,4 +62,4 @@ async function getBoardGamePrices() {
 
 getBoardGamePrices()
 
-// hello there //
+// <(^.^)> //
