@@ -31,6 +31,15 @@ export const boardGameData = [{
     gameUrl: 'https://www.amazon.co.uk/Starling-Games-Everdell-Bellfaire/dp/B07YVMSCSV/ref=sr_1_1?sr=8-1'
 }]
 
+export interface boardGameSaleInfo {
+    gameTitle: string,
+    gameUrl: string
+    price: number
+    listPrice: number
+    percentageSaving: number
+
+}
+
 
 
 
