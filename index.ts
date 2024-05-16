@@ -9,7 +9,6 @@ async function getBoardGamePrices() {
 
     const gamesOnSaleArr: string[] = []
 
-
     // Navigate to product page 
 
     for (const boardGame of boardGameData) {
@@ -63,3 +62,4 @@ async function getBoardGamePrices() {
 
 getBoardGamePrices()
 
+// hello there //
