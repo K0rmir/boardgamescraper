@@ -1,12 +1,12 @@
 import { test, expect } from '@playwright/test';
-import { boardGameData } from '../boardgamedata';
+import { boardGameProducts } from '../boardgamedata';
 
 // const { boardGameData } = require('boardgamedata.ts')
 
 // Check if URL contains the board game name 
 test('has title', async ({ page }) => {
 
-  for (const boardGame of boardGameData) {
+  for (const boardGame of boardGameProducts) {
     await page.goto(boardGame.gameUrl)
     console.log(boardGame.gameUrl)
     const pageTitle = await page.title()

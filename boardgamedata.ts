@@ -1,4 +1,4 @@
-export const boardGameData = [{
+export const boardGameProducts = [{
     gameTitle: 'Wyrmspan',
     gameUrl: 'https://www.amazon.co.uk/Stonemaier-Games-Wyrmspan-Players-Minutes/dp/B0CJXNW71N/ref=sr_1_5?sr=8-5'
 },
@@ -31,7 +31,7 @@ export const boardGameData = [{
     gameUrl: 'https://www.amazon.co.uk/Starling-Games-Everdell-Bellfaire/dp/B07YVMSCSV/ref=sr_1_1?sr=8-1'
 }]
 
-export interface boardGameSaleInfo {
+export interface boardGameData {
     gameTitle: string,
     gameUrl: string
     price: number
