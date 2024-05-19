@@ -1,6 +1,6 @@
 export const boardGameProducts = [{
     gameTitle: 'Wyrmspan',
-    gameUrl: 'https://www.amazon.co.uk/Stonemaier-Games-Wyrmspan-Players-Minutes/dp/B0CJXNW71N/ref=sr_1_5?sr=8-5'
+    gameUrl: 'https://www.amazon.co.uk/Stonemaier-Games-Wyrmspan-Players-Minutes/dp/B0CJXNW71N/ref=sr_1_5?sr=8-5&th=1'
 },
 {
     gameTitle: 'Cascadia',
@@ -27,7 +27,7 @@ export const boardGameProducts = [{
     gameUrl: 'https://www.amazon.co.uk/Space-Cowboys-ASMSCSPL01US-Splendor-Board/dp/B00IZEUFIA/ref=sr_1_1?sr=8-1'
 },
 {
-    gameTitle: 'Everdell Bellfaire',
+    gameTitle: 'Everdell: Bellfaire',
     gameUrl: 'https://www.amazon.co.uk/Starling-Games-Everdell-Bellfaire/dp/B07YVMSCSV/ref=sr_1_1?sr=8-1'
 }]
 
