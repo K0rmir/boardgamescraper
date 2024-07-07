@@ -41,7 +41,7 @@ async function getBoardGamePrices() {
             const priceElement = page.locator('span.priceToPay').nth(0)
             priceString = await priceElement.textContent({ timeout: 3000 })
             price = parseFloat(priceString.replace(/£/, ''))
-            // console.log(`Current Price = £${price}`)
+            console.log(`Current Price = £${price}`)
         } catch (error) {
             console.error
             throw new Error("Could not find sale price. priceToPay may have been renamed.")

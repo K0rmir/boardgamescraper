@@ -1,8 +1,4 @@
 export const boardGameProducts = [{
-    gameTitle: 'Wyrmspan',
-    gameUrl: 'https://www.amazon.co.uk/Stonemaier-Games-Wyrmspan-Players-Minutes/dp/B0CJXNW71N/ref=sr_1_5?sr=8-5&th=1'
-},
-{
     gameTitle: 'Cascadia',
     gameUrl: 'https://www.amazon.co.uk/Alderac-Entertainment-Group-ALD07098-Cascadia/dp/B093H8RGXX/ref=sr_1_1?sr=8-1'
 },
@@ -29,7 +25,16 @@ export const boardGameProducts = [{
 {
     gameTitle: 'Everdell: Bellfaire',
     gameUrl: 'https://www.amazon.co.uk/Starling-Games-Everdell-Bellfaire/dp/B07YVMSCSV/ref=sr_1_1?sr=8-1'
-}]
+},
+{
+    gameTitle: 'Tinderblox',
+    gameUrl: 'https://www.amazon.co.uk/Alley-Cat-Games-Tinderblox-Day/dp/B089KV9RX7/ref=rvi_d_sccl_9/260-2344315-6321712?pd_rd_i=B089KV9RX7'
+},
+{
+    gameTitle: 'Star Realms',
+    gameUrl: 'https://www.amazon.co.uk/White-Wizard-Games-WWG001-EN-Realms/dp/B00HRGMPIU/ref=sr_1_5?sr=8-5'
+},
+]
 
 export interface boardGameData {
     gameTitle: string,
@@ -37,7 +42,6 @@ export interface boardGameData {
     price: number
     listPrice: number
     percentageSaving: number
-
 }
 
 

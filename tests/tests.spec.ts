@@ -1,8 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { boardGameProducts } from '../boardgamedata';
 
-
-
 // Check to see if connection to product page is successfull //
 test('connection', async ({ page }) => {
   for (const boardGame of boardGameProducts) {
